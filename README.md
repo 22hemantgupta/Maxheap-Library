@@ -3,10 +3,10 @@
 
 mplementation of a priority queue using a max heap. To use the priority queue:
 
-   1->include "MaxHeap.h" in your source file.
-   2->declare a MaxHeap as "MaxHeap < myDataType > myMaxHeap(comparator)".
-   3->you need to define a function comparator that accepts two objects of type myDataType and returns true if 1st compares less than 2nd object and false otherwise.
-   4->the highest priority object(does not compare less than any other object in the heap) is the topmost item in the heap.
+   1->include "MaxHeap.h" in your source file.\
+   2->declare a MaxHeap as "MaxHeap < myDataType > myMaxHeap(comparator)".\
+   3->you need to define a function comparator that accepts two objects of type myDataType and returns true if 1st compares less than 2nd object and false otherwise.\
+   4->the highest priority object(does not compare less than any other object in the heap) is the topmost item in the heap.\
 
 The following functionalities are provided:
 
